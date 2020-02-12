@@ -1,0 +1,16 @@
+.pokemon {
+	margin-bottom: 70px;
+	animation-name: 'show-up';
+	animation-duration: 0.2;
+}
+
+@keyframes show-up {
+	0% { 
+		display: hidden;
+		margin-top: 150px;
+	}
+	100% {
+		display: block;
+		margin-top: 0px;
+	}
+}
